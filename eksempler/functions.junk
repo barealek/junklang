@@ -1,0 +1,5 @@
+skunk square(a) {
+    dunk a * a
+}
+bunk x = 10
+junk square(x)
