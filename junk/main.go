@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/barealek/junklang"
 	"os"
+
+	"github.com/barealek/junklang"
 )
 
 func main() {
