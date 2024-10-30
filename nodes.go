@@ -120,6 +120,6 @@ type ReturnNode struct {
 	value Node
 }
 
-func (n *ReturnNode) Call(scope *Scope) interface{} {
-	return n.value.Call(scope)
+func (n *ReturnNode) Call(s *Scope) interface{} {
+	return n.value.Call(s)
 }
